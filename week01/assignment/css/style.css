@@ -1,0 +1,58 @@
+body,ul,li,dl,dd,dt,figure{
+  margin:0;
+  padding:0;
+}
+h1{
+  display:none;
+}
+.iphoneArea{
+  max-width:800px;
+  margin:50px auto;
+  border:1px solid #eee;
+  padding:50px;
+  background:#f9f9f9;
+  border-radius: 10px;
+}
+.iphoneArea img{
+  width:40%;
+  display:block;
+  margin:0 auto;
+}
+.iphoneContent{
+  width:100%;
+}
+.iphoneContent dl{
+  width:350px;
+  display:flex;
+  justify-content:space-between;
+  margin:10px 0;
+}
+.iphoneContent dl dt{
+  width:30%;
+}
+.iphoneContent dl dd{
+  width:70%;
+  border-radius: 5px;
+}
+.iphoneContent input{
+  width:100%;
+  padding:5px;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+.iphoneContent select{
+  padding:5px;
+  width:105%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.iphoneContent button{
+  display:block;
+  width:180px;
+  padding:10px 20px;
+  margin:30px auto;
+  text-align:center;
+  background:#fff;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
