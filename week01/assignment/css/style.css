@@ -18,41 +18,76 @@ h1{
   display:block;
   margin:0 auto;
 }
+.figureArea h2{
+  font-size:3em;
+}
+.figureArea figure{
+  position:relative;
+}
+.figureArea figure span{
+  position: absolute;
+  bottom:110px;
+  left:230px;
+  font-size:20px;
+  font-weight:400;
+}
+
+.exchangeInfo p{
+  font-size:20px;
+  color:blue;
+  font-weight:400;
+}
 .iphoneContent{
   width:100%;
 }
 .iphoneContent dl{
-  width:350px;
   display:flex;
   justify-content:space-between;
-  margin:10px 0;
+  margin:20px 0;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  overflow:hidden;
 }
 .iphoneContent dl dt{
-  width:30%;
+  width:160px;
+  line-height:46px;
+  font-size:20px;
+  padding:0 34px;
+  background:#eee;
 }
 .iphoneContent dl dd{
-  width:70%;
+  width:100%;
   border-radius: 5px;
 }
 .iphoneContent input{
-  width:100%;
-  padding:5px;
+  width:95%;
+  padding:10px 15px;
   border-radius:5px;
-  border:1px solid #ccc;
+  border:0;
+  font-size:20px;
 }
 .iphoneContent select{
-  padding:5px;
-  width:105%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width:100%;
+  padding:10px 15px;
+  border-radius:5px;
+  border:0;
+  font-size:20px;
+  height:45px;
 }
 .iphoneContent button{
   display:block;
-  width:180px;
-  padding:10px 20px;
+  width:150px;
+  padding:15px 20px;
   margin:30px auto;
   text-align:center;
-  background:#fff;
+  background:#007bff;
   border-radius:5px;
-  border:1px solid #ccc;
+  border:1px solid #007bff;
+  color:#fff;
+  font-size:20px;
+  cursor:pointer;
+}
+.iphoneContent button:hover{
+  background-color:#0062cc;
+  border-color:#005cbf;
 }
