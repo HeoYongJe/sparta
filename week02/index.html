@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/respons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>스파르타코딩클럽 | html 기초</title>
+</head>
+<body>
+  <!-- <section class="sectionArea">
+    <h1>1주차</h1> 
+    <article class="loginArea">
+      <div>
+      <h2>로그인 페이지</h2>
+      <h3>아이디/비밀번호를 입력해주시오.</h3>
+      </div>
+      <p>
+        <span>id:</span>
+        <input type="text">
+      </p>
+      <p>
+        <span>pw:</span>
+        <input type="password">
+      </p>
+      <button>로그인</button>
+    </article>
+  </section>         -->
+
+  <section class="memoArea">
+    <h1>메모장</h1>
+    <article class="memoTitle">
+      <h2>나홀로 링크 메모장!</h2>
+      <p>중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다</p>
+      <button type="button" onclick ="openclose()" id="primaryBtn">Primary</button>
+    </article>
+    <article id="postBox">
+      <div class="articleUrl">
+        <label for="exampleFormControlInput1">아티클 URL</label>
+        <input class="form-control" placeholder="" id="article">
+      </div>
+      <div class="articleComment">
+        <label for="exampleFormControlTextarea1">간단 코멘트</label>
+        <textarea class="form-control" rows="2"></textarea>
+      </div>
+    </article>
+    <article class="memoContent">
+      <figure id="content">
+        <img src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg" alt="">
+        <caption>
+          <strong>제목입니다</strong>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore exercitationem nobis ad ullam commodi consequatur...</p>
+          <p>-coment</p>
+        </caption>
+      </figure>
+      <figure>
+        <img src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg" alt="">
+        <caption>
+          <strong>제목입니다</strong>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore exercitationem nobis ad ullam commodi consequatur...</p>
+          <p>-coment</p>
+        </caption>
+      </figure>
+      <figure>
+        <img src="https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg" alt="">
+        <caption>
+          <strong>제목입니다</strong>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore exercitationem nobis ad ullam commodi consequatur...</p>
+          <p>-coment</p>
+        </caption>
+      </figure>
+    </article>
+    <article>
+      <button class="jahoBtn">클릭</button>
+    </article>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+  <script src="./js/script.js"></script>
+</body>
+</html>
