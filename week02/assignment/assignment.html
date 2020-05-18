@@ -20,17 +20,17 @@
     </article>
     <article class="iphoneContent">
       <div class="exchangeInfo">
-        <p>달러-원 환율:<span>1222.25</span></p>
+        <p>달러-원 환율:<span id="exchange"></span></p>
         
       </div>
       <dl>
         <dt>주문자 성함:</dt>
-        <dd><input type="text"></dd>
+        <dd><input type="text" id="orderName"></dd>
       </dl>
       <dl>
         <dt>수량:</dt>
         <dd>
-          <select name="" id="">
+          <select name="" id="quantity">
             <option value="">수량을 선택 하세요</option>
             <option value="1개">1개</option>
             <option value="2개">2개</option>
@@ -39,15 +39,16 @@
       </dl>
       <dl>
         <dt>주소:</dt>
-        <dd><input type="text"></dd>
+        <dd><input type="text" id="address"></dd>
       </dl>
       <dl>
         <dt>전화번호:</dt>
-        <dd><input type="text"></dd>
+        <dd><input type="text" id="phoneNumber"></dd>
       </dl>
       <button class="orderBtn">주문하기</button>
     </article>
   </section>
   <script src="./js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 </html>

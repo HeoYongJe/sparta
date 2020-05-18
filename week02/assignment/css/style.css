@@ -14,7 +14,7 @@ h1{
   border-radius: 10px;
 }
 .iphoneArea img{
-  width:40%;
+  width:30%;
   display:block;
   margin:0 auto;
 }
@@ -51,7 +51,7 @@ h1{
 .iphoneContent dl dt{
   width:160px;
   line-height:46px;
-  font-size:20px;
+  font-size:18px;
   padding:0 34px;
   background:#eee;
 }
@@ -61,10 +61,11 @@ h1{
 }
 .iphoneContent input{
   width:95%;
-  padding:10px 15px;
+  height:100%;
+  padding:0 15px;
   border-radius:5px;
   border:0;
-  font-size:20px;
+  font-size:18px;
 }
 .iphoneContent select{
   width:100%;
