@@ -27,17 +27,16 @@ const $orderBtn = document.querySelector('.orderBtn');
       }
   };
 
-  // function set_exchange() {
-  //   $.ajax({
-  //       type: "GET",
-  //       url: "https://api.manana.kr/exchange/rate.json",
-  //       data: {},
-  //       success: function () {
-            
-  //             };
-  //           };
-
-  //       }
-  //   });
-  // };
+  $(document).ready(function(){
+    $.ajax({
+        type: "GET",
+        url: "https://api.manana.kr/exchange/rate.json",
+        data: {},
+        success: function (reLoad) {
+            for(let i=0;i < reLoad.length;i++){
+                $('#exchange').append(reLoad[i]['rate']);
+            }
+        }
+    })
+  });
 
