@@ -27,6 +27,19 @@ const $orderBtn = document.querySelector('.orderBtn');
       }
   };
 
+//   $(document).ready(function(){
+//     $.ajax({
+//         type: "GET",
+//         url: "https://api.manana.kr/exchange/rate.json",
+//         data: {},
+//         success: function (reLoad) {
+//             for(let i=0;i < reLoad.length;i++){
+//                 $('#exchange').append(reLoad[i]['rate']);
+//             }
+//         }
+//     })
+//   });
+
   $(document).ready(function(){
     $.ajax({
         type: "GET",
@@ -34,7 +47,9 @@ const $orderBtn = document.querySelector('.orderBtn');
         data: {},
         success: function (reLoad) {
             for(let i=0;i < reLoad.length;i++){
-                $('#exchange').append(reLoad[i]['rate']);
+                if(reLoad[i]['name'] == 'USDKRW=X') {
+                    $('#exchange').append(reLoad[i]['rate']);
+                }
             }
         }
     })
