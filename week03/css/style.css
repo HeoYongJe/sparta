@@ -1,0 +1,76 @@
+body{
+  width:100%;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+body img{
+  width:100%;
+  display:block;
+}
+h1{
+  font-size:0;
+}
+h2{
+  font-size:30px;
+}
+.memoBtnStyle{
+  width:150px;
+  padding:10px 15px;
+  border:1px solid #aa6669;
+  border-radius: 5px;
+  background:#aa6669;
+  color:#fff;
+  margin:25px 0;
+  margin-bottom:0;
+}
+/* 기사저장 */
+#postBox{
+  padding:50px 50px 0 50px;
+}
+.articleUrl{
+  padding:10px 0;
+}
+#postBox label{
+  width:100px;
+  display:inline-block;
+}
+#postBox .articleCommon{
+  border:0;
+  border:1px solid #ccc !important;
+  border-radius: 5px;
+  padding:8px 5px;
+  max-width:300px;
+  width:100%;
+  vertical-align: middle;
+}
+.widthCommon{
+  max-width:1200px;  
+  margin:0 auto;  
+}
+.memoArea{
+
+  width:100%;
+
+}
+.memoTitle{
+  background:#eee;
+  padding:50px;
+}
+.memoTitle div{
+  max-width:1200px;  
+  margin:0 auto;  
+}
+.memoTitle p{
+  margin:0;
+}
+.memoContent{
+  display:flex;
+  justify-content:space-between;
+  align-content: center;
+  flex-flow:wrap;
+  padding:50px 20px;
+}
+.memoContent figure{
+  width:30%;
+  margin:0;
+}
